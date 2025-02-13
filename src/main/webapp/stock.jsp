@@ -76,7 +76,7 @@
                             </tr>
                         </tbody>
                     </table>
-                </div>
+                </div>       
             </div>
         </div>
     </div>
@@ -107,7 +107,7 @@
                                 <option>Alimentaire</option>
                                 <option>Bureau</option>
                                 <option>Vêtements</option>
-                            </select>
+                             </select>
                         </div>
                         <div class="row">
                             <div class="col-md-6 mb-3">
