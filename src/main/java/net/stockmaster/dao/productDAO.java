@@ -1,10 +1,10 @@
-package com.stockmaster.db;
+package net.stockmaster.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class DBConnection {
+public class productDAO {
     // Database credentials
     private static final String JDBC_URL = "jdbc:mysql://localhost:3306/stockmasterbrf1?useSSL=false&serverTimezone=UTC";
     private static final String JDBC_USERNAME = "root";  
@@ -24,6 +24,6 @@ public class DBConnection {
             e.printStackTrace();
         }
         return connection;
-    }
+    } }
 
     
